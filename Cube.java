@@ -29,31 +29,30 @@ public class Cube {
       else if (i.contains("d")){
         cube = moveD(cube);
       }
-
-      // else if (args.get(i).equals ("l")){
-      //   moveL(cube);
-      // }
-      // else if (args.get(i).equals ("l'")){
-      //   moveLPrime(cube);
-      // }
-      // else if (args.get(i).equals ("r")){
-      //   moveR(cube);
-      // }
-      // else if (args.get(i).equals ("r'")){
-      //   moveRPrime(cube);
-      // }
-      // else if (args.get(i).equals ("f")){
-      //   moveF(cube);
-      // }
-      // else if (args.get(i).equals ("f'")){
-      //   moveFPrime(cube);
-      // }
-      // else if (args.get(i).equals ("b")){
-      //   moveB(cube);
-      // }
-      // else if (args.get(i).equals ("b'")){
-      //   moveBPrime(cube);
-      // }
+      else if (i.contains("r'")){
+        cube = moveRPrime(cube);
+      }
+      else if (i.contains("r")){
+        cube = moveR(cube);
+      }
+      else if (i.contains("l'")){
+        cube = moveLPrime(cube);
+      }
+      else if (i.contains("l")){
+        cube = moveL(cube);
+      }
+      else if (i.contains("f'")){
+        cube = moveFPrime(cube);
+      }
+      else if (i.contains("f")){
+        cube = moveF(cube);
+      }
+      else if (i.contains("b'")){
+        cube = moveBPrime(cube);
+      }
+      else if (i.contains("b")){
+        cube = moveB(cube);
+      }
     }
      
       // cube = moveU(cube);
