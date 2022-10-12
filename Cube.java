@@ -1,6 +1,15 @@
 
 import java.util.ArrayList;
 
+// Feedback:
+// I think it looks pretty good! Lacking a few minor points of functionality but overall I think there is
+// a lot here to go off of and is definitely well implemented and understandable. Especially considering
+// your java background!
+// 
+// Great Job!
+// 
+
+
 public class Cube {
 
   static ArrayList <String> rotations = new ArrayList<String>();
@@ -56,16 +65,16 @@ public class Cube {
     }
      
       // cube = moveU(cube);
-      // cube = moveUPrime(cube);
-      // cube = moveD(cube);
+      cube = moveUPrime(cube);
+      cube = moveD(cube);
       // cube = moveDPrime(cube);
       // cube = moveR(cube);
-      // cube = moveRPrime(cube);
+      cube = moveRPrime(cube);
       // cube = moveL(cube);
-      // cube = moveLPrime(cube);
+      cube = moveLPrime(cube);
       // cube = moveF(cube);
       // cube = moveFPrime(cube);
-      // cube = moveB(cube);
+      cube = moveB(cube);
       // cube = moveBPrime(cube);
       printOut(cube);
   }
